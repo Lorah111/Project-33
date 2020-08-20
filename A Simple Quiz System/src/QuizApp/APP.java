@@ -14,12 +14,15 @@ public class APP {
 					+ "(a)red/green\n(b)yellow\n(c)blue\n"; 
 		String q3 = "Who is the president of your country?\n" 
 				+ "(a)red/Kenyatta\n(b)Magufuli\n(c)Trump\n"; 
+		String q4 = "Who is the first president of your country?\n" 
+				+ "(a)Nyerere\n(b)Magufuli\n(c)Trump\n"; 
 		
 		
 	Question [] questions = {	
 			new Question(q1, "a"),
 			new Question(q2, "b"),
-			new Question(q3, "b")
+			new Question(q3, "b"),
+			new Question(q4, "a")
 			};
 			takeTest(questions);
 	}
